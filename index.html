@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="style.css">
+<script src="https://unpkg.com/axios@1.1.2/dist/axios.min.js"></script>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;1,600&family=Quicksand:wght@600&display=swap" rel="stylesheet">
+<title>AJAX fetch és axios</title>
+</head>
+<body>
+    <main>
+       <form>
+            <label for="firstname" >Név</label>
+            <input type="text" name ="firstname"  id ="firstname">
+       </form> 
+    <!--  <section id = "results1"></section> 
+          <section id = "results2"></section>    a 'section' át lett írva 'ul'-ra, hogy szebben jelenjen meg -->
+
+          <ul id = "results1"></ul>
+          <ul id = "results2"></ul>
+    </main>
+
+
+    <!-- Feladat: A mezőbe beírok egy keresztnév első 2-3 betűjét és ki kell íródnia az összes olyan 
+                  keresztnévnek, ami a megadott betűkkel kezdődik -->
+
+    <script defer src="script.js">   // defer = arról gondoskodik, hogy a script.js akkor fusson le, mikor minden betöltődött
+
+    </script>     
+</body>
+</html>
